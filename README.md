@@ -24,7 +24,7 @@ composer require dizatech/tag
 Publish 'lacopa' packages pages:
 php artisan tag:install --lacopa | --lacopa --force | -l -f | -lf
 
-Publish empty pages for custom pages:
+Publish empty pages for another projects:
 php artisan tag:install --force | -f 
 
 ```
