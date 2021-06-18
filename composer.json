@@ -1,0 +1,47 @@
+{
+    "name": "dizatech/tag",
+    "type": "library",
+    "description": "A full package for attach tags to all of models in laravel.",
+    "keywords": [
+        "tags",
+        "tag",
+        "laravel tags",
+        "laravel",
+        "tag managment",
+        "attach",
+        "sync",
+        "tag package",
+        "tags package",
+        "laravel package",
+        "polymorphic",
+        "polymorphic tags",
+        "many to many polymorphic relationship",
+        "many to many",
+        "many to many tags",
+        "many to many relationship"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vahid Ashourzadeh",
+            "email": "v.ashourzadeh@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "7.1.*|7.2.*|7.3.*|7.4.*",
+        "laravel/framework": "7.*|8.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dizatech\\Tag\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dizatech\\Tag\\DizatechTagServiceProvider"
+            ]
+        }
+    }
+}
