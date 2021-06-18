@@ -24,7 +24,7 @@ composer require dizatech/tag
 Publish 'lacopa' packages pages:
 php artisan tag:install --lacopa | --lacopa --force | -l -f | -lf
 
-Publish empty pages for create custom pages:
+Publish empty pages for custom pages:
 php artisan tag:install --force | -f 
 
 ```
@@ -39,7 +39,7 @@ OR set custom properties, defaults: label="برچسب‌ها" name="tags" page="
 <x-tag label="برچسب‌ها" name="tags" page="create"></x-tag>
 
 And use this component in your 'edit' pages:
-<x-tag page=edit' id='{{ $post->id }}' $model='{{ get_class($post) }}'></x-tag>
+<x-tag page="edit" id="{{ $post->id }}" $model="{{ get_class($post) }}"></x-tag>
 
 ```
 
